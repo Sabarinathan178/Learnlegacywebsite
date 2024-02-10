@@ -1,6 +1,7 @@
 import React from "react";
-import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-
+import {  FaLinkedin, FaInstagram } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   const year = new Date();
 
@@ -13,15 +14,15 @@ const Footer = () => {
         <div className="flex items-center justify-center mb-6">
           <a
             className="inline-block mx-2"
-            href="https://twitter.com/GilbertHutapeaa"
+            href="https://youtube.com/@TeamLearnLegacy?si=jW0QUxOf9Ys9z_De"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter className="text-2xl text-blue-600" />
+            <IoLogoYoutube className="text-2xl text-red-600" />
           </a>
           <a
             className="inline-block mx-2"
-            href="https://linkedin.com/in/gilberthutapea"
+            href="https://www.linkedin.com/in/learn-legacy-68a0b62b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,22 +30,22 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.github.com/berthutapea"
+            href="https://www.facebook.com/learnlegay?sfnsn=wiwspwa&mibextid=RUbZ1f"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-2xl text-black" />
+            <FaFacebook className="text-2xl text-black" />
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.instagram.com/bethup97/"
+            href="https://www.instagram.com/learn_legacy_?igsh=MWsxODhzcWN4OWM0"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram className="text-2xl text-pink-500" />
           </a>
         </div>
-        <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
+        {/* <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
             href="https://www.fiverr.com/berthutapea"
@@ -101,7 +102,7 @@ const Footer = () => {
           >
             Resume
           </a>
-        </div>
+        </div> */}
 
         <div className="w-full h-[2px] bg-gray-600"></div>
         <div className="flex flex-col md:flex-row items-center justify-between mt-4">

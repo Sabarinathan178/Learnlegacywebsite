@@ -1,25 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { FaDownload } from "react-icons/fa";
-import { RiFolderInfoFill } from "react-icons/ri";
 import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
-import Lottie from "react-lottie";
-import coding from "../../../assets/coding.json";
 import "../../../pages/shared/Shared.css";
-import { SecondaryBtn } from "../../../components";
 import homeimg from "../../../assets/groupedits2.jpg";
-// import groupimg from "../../../assets/groupedit.jpg";
+
 
 const Banner = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: coding,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const defaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: coding,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
   const RegisterButtonClick = () => {
     // Navigate to the desired URL
     window.location.href = "/register"; // Replace '/your-url' with the actual URL you want to navigate to
@@ -82,7 +76,7 @@ const Banner = () => {
           Development, AI, Cybersecurity, Blockchain, Java Spring Boot, Business
           and Mindset.
         </p> */}
-        <p className="text-white  font-semibold max-w-xl font-medium translate-y-[-20%] ">
+        <p className="text-white  font-semibold max-w-xl  translate-y-[-20%] ">
           At Learn Legacy, we guide students towards a future they'll love. Our
           team is dedicated to helping you find your perfect domain among 9
           exciting choices, including UI/UX Design, Networking, Full Stack

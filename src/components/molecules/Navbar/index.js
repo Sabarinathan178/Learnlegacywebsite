@@ -8,12 +8,10 @@ import {
 } from "react-icons/ri";
 import { GiCrossMark } from "react-icons/gi";
 import { FaHome, FaDownload } from "react-icons/fa";
-import { MdWork } from "react-icons/md";
 import { ImBlog } from "react-icons/im";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import "../../../pages/shared/Shared.css";
-import { PrimaryBtn } from "../../../components";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);

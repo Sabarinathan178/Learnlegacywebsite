@@ -1,11 +1,10 @@
 import React from "react";
-import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import "./About.css";
 import group from "../../assets/logoBlack.png";
 import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
-import { BottomLine, MySkill, Education } from "../../components";
+import { BottomLine } from "../../components";
 import { FaDownload } from "react-icons/fa";
 
 const About = () => {
@@ -77,7 +76,7 @@ const About = () => {
               Stop the career confusion. Ignite your passion. Build your future.
             </p>
             <div className="flex justify-center md:justify-start">
-              <a href="" target="blank">
+              <a href="/" target="blank">
                 <button className="primary-button">
                   <span>Broucher</span>
                   <span>

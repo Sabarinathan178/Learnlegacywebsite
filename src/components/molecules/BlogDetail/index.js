@@ -5,25 +5,12 @@ import blogs from "../../../Utils/blogs";
 import { useState } from "react";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { FiExternalLink } from "react-icons/fi";
-import { SiLinkedin, SiInstagram } from "react-icons/si";
-import {
-  EmailShareButton,
-  EmailIcon,
-  FacebookShareButton,
-  FacebookIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  LinkedinShareButton,
-  WhatsappShareButton,
-  WhatsappIcon,
-  LinkedinIcon,
-} from "react-share";
+
 
 const BlogDetail = () => {
   const { blog_path } = useParams();
   const [blog, setBlog] = useState({});
-  const url = window.location.href;
+  // const url = window.location.href;
 
   useEffect(() => {
     const current_blog = blogs.find((blog) => blog.path === blog_path);
