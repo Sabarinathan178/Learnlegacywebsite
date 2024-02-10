@@ -12,7 +12,8 @@ import { ImBlog } from "react-icons/im";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import "../../../pages/shared/Shared.css";
-
+import { PrimaryBtn } from "../../atoms";
+import br from "../../../assets/brouchre.pdf"
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
   const toggleDrawer = () => {
@@ -23,7 +24,7 @@ export default function Navbar() {
     { title: "Home", link: "/", icon: <FaHome /> },
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
     // { title: "Project", link: "/project", icon: <MdWork /> },
-    { title: "Blog", link: "/blog", icon: <ImBlog /> },
+    { title: "Courses", link: "/courses", icon: <ImBlog /> },
     { title: "Register", link: "/register", icon: <RiContactsBook2Fill /> },
   ];
   const activeLink = ({ isActive }) => {
@@ -91,19 +92,19 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
-              target="blank"
+              href={br}
+              target="blank" download
             >
-              {/* <PrimaryBtn>
-                 <span>Resume</span> 
+              <PrimaryBtn>
+                 <span className="text-sm">Brouchre</span> 
                 <span>
                   <FaDownload />
                 </span>
-              </PrimaryBtn> */}
+              </PrimaryBtn>
             </a>
           </ul>
           <div className="block lg:hidden">
-            <button onClick={toggleDrawer} className="btn btn-ghost text-white">
+            <button onClick={toggleDrawer} className="btn btn-ghost text-white text-2xl">
               <RiMenu3Fill></RiMenu3Fill>
             </button>
             <Drawer
@@ -111,12 +112,12 @@ export default function Navbar() {
               onClose={toggleDrawer}
               direction="right"
               style={{ backgroundColor: "#212121" }}
-              className="bla bla bla flex flex-col justify-between pb-4"
+              className="bla bla bla flex flex-col justify-between pb-4 w-32"
             >
               <ul className="">
                 <li className="mt-6 mb-10 ml-4">
                   <GiCrossMark
-                    className="cursor-pointer hover:text-primary duration-300"
+                    className="cursor-pointer hover:text-primary duration-300 text-2xl"
                     onClick={() => setIsOpen(!isOpen)}
                   ></GiCrossMark>
                 </li>
@@ -139,11 +140,11 @@ export default function Navbar() {
                 <li className="text-center m-4">
                   <a
                     className="inline-block w-full"
-                    href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+                    href={br}
                     target="blank"
                   >
                     <button className="primary-button w-full text-white">
-                      <span>Resume</span>
+                      <span>Brouchure</span>
                       <span>
                         <FaDownload />
                       </span>
@@ -153,7 +154,7 @@ export default function Navbar() {
               </ul>
               <div className="text-center">
                 <p className="text-neutral">
-                  &copy; Copyright 2023, Gilbert Hutapea. All Rights Reserved
+                  &copy; Copyright 2024, Team Learn Legacy. All Rights Reserved
                 </p>
               </div>
             </Drawer>

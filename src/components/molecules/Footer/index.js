@@ -110,11 +110,11 @@ const Footer = () => {
           <p>
             Developed by{" "}
             <a
-              href="https://linkedin.com/in/gilberthutapea"
+              href="https://www.linkedin.com/in/learn-legacy-68a0b62b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="text-primary hover:underline"
               target="blank"
             >
-              Sabarinathan.B
+              Team Learn Legacy
             </a>
           </p>
         </div>

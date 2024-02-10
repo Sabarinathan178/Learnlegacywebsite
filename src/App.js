@@ -21,7 +21,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/blog" element={<Blog />}>
+          <Route path="/courses" element={<Blog />}>
             <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />
           </Route>

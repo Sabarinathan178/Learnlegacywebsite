@@ -77,7 +77,7 @@ const Reviews = [
     bio: "Express & Node js",
     img: shesha,
     description:
-      "Passionate backend developer specializing in Express and Node.js, committed to building scalable and robust server-side applications to drive business succes. ",
+      "Passionate backend developer specializing in Express and Node.js, server-side applications to drive business succes. ",
     rating: 5.0,
   },
   {

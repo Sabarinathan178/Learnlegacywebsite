@@ -85,7 +85,7 @@ const Informasi = () => {
                 </motion.div>
             </div>
             <Link
-                to="/blog"
+                to="/courses"
                 className="text-1xl hover:text-primary duration-300"
             >
                 <button className="primary-button ">

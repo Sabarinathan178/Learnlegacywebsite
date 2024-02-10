@@ -61,12 +61,10 @@ const Register = () => {
 
       // Display success message
       Swal.fire({
-        position: "center",
         icon: "success",
-        title:
-          "Registration Completed Successfully! Check your email to join our whatsapp group for more updates",
-        showConfirmButton: false,
-        timer: 5500,
+        title: "Registration Completed Successfully!",
+        text: "Check your email to join our whatsapp group for more updates, if not! check you spam mail",
+        footer: '<a href="tel:+916384281065">Why do I have this issue? for contact</a>'
       });
 
       // Navigate to home page after successful submission
@@ -77,7 +75,8 @@ const Register = () => {
       Swal.fire({
         icon: "error",
         title: "Oops...",
-        text: "Something went wrong!",
+        text: "Select domain properly, atleat one! or Something went wrong try again Later",
+        footer: '<a href="tel:+916384281065">Why do I have this issue? for contact</a>'
       });
     }
 
@@ -166,13 +165,15 @@ const Register = () => {
               {/* Domain checkboxes */}
               {[
                 "Artificial Intelligence",
-                "Full-stack Development",
+                "Front End Development",
                 "UI/UX Design",
                 "BlockChain",
                 "CyberSecurity",
+                "Backend Development using Java SpringBoot",
+                "Backend Development using Node jsx",
                 "Networking",
                 "Business and Mindset",
-                "Java SpringBoot",
+                
               ].map((domain, index) => (
                 <label
                   key={index}
