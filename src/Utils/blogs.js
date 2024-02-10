@@ -12,7 +12,7 @@ const blogs = [
     _id: 1,
     title: "Getting to Know the BlockChain Technology and How it works",
     path: "blockchain",
-    name:"Arul Selvan",
+    name:"Arul Selvan M",
     date: "04 March 2024",
     img: arul,
     instagram_link:
@@ -28,7 +28,7 @@ const blogs = [
     title: "Getting to Know the CyberSecurity and How it works",
     path: "cybersecurity",
     date: "03 March 2024",
-    name:"Sashwin",
+    name:"Sashwin K",
     img: sash,
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
@@ -43,7 +43,7 @@ const blogs = [
     title: "Get to know what a SpringBoot is & how it works",
     path: "springboot",
     date: "01 March 2024",
-    name:"Sudhakar",
+    name:"Sudhakar S",
     img: sudhakar,
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
@@ -58,7 +58,7 @@ const blogs = [
     title: "Get to know Business Techniques",
     path: "businessmindset",
     date: "05 March 2024",
-    name:"Kanishkar",
+    name:"Kanishkar A",
     img: kani,
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
@@ -73,7 +73,7 @@ const blogs = [
     title: "Getting to Know the BackEnd Development and How it works",
     path: "backenddevelopment",
     date: "29 February 2024",
-    name:"Sheshadri",
+    name:"Sheshadri N",
     img:shesha,
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
@@ -103,7 +103,7 @@ const blogs = [
     title: "Get to know AI (Artificial Intelligence) and Its Role in the World of Technology",
     path: "artificialintelligence",
     date: "02 March 2024",
-    name:"Vishnu Prabhu",
+    name:"Vishnu Prabhu V",
     img: vishnu,
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
@@ -121,7 +121,7 @@ const blogs = [
     path: "frontenddevelopment",
     date: "28 February 2024 ",
     img: sabari,
-    name:"Sabari",
+    name:"Sabari B",
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
     linkedin_link:
@@ -136,7 +136,7 @@ const blogs = [
     path: "uiuxdesign",
     date: "26 February 2024",
     img: dhana,
-    name:"Dhanabal",
+    name:"Dhanabal D",
     instagram_link:
       "https://www.instagram.com/bethup97/?next=%2F",
     linkedin_link:
