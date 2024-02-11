@@ -63,9 +63,20 @@ const Register = () => {
       Swal.fire({
         icon: "success",
         title: "Registration Completed Successfully!",
-        text: "Check your email to join our whatsapp group for more updates, if not! check you spam mail",
-        footer: '<a href="tel:+916384281065">Why do I have this issue? for contact</a>'
-      });
+        html: 'Join our <a href="https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn"> WhatsApp group</a>. Check your email to join our WhatsApp group for more updates. If not, check your spam mail',
+        footer: '<a href="tel:+916384281065">Why do I have this issue? for contact</a>',
+        didOpen: () => {
+            const whatsappButton = Swal.getPopup().querySelector('a[href="https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn"]');
+            whatsappButton.insertAdjacentHTML('afterend', '<button id="joinWhatsappGroup">Join WhatsApp Group</button>');
+            const joinButton = Swal.getPopup().querySelector('#joinWhatsappGroup'); // Change the background color here
+            joinButton.style.color = 'blue';
+            joinButton.addEventListener('click', () => {
+                // Handle button click action, e.g., redirect to WhatsApp group link
+                window.open('https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn', '_blank');
+            });
+        }
+    });
+    
 
       // Navigate to home page after successful submission
       navigate("/");
