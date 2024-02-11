@@ -6,7 +6,7 @@ import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { BottomLine } from "../../components";
 import { FaDownload } from "react-icons/fa";
-
+import br from "../../assets/brouchre.pdf"
 const About = () => {
   return (
     <div className="parent pt-16 my-16">
@@ -76,7 +76,7 @@ const About = () => {
               Stop the career confusion. Ignite your passion. Build your future.
             </p>
             <div className="flex justify-center md:justify-start">
-              <a href="/" target="blank">
+              <a href={br} target="blank" download >
                 <button className="primary-button">
                   <span>Broucher</span>
                   <span>

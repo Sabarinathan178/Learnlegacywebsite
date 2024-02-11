@@ -141,7 +141,7 @@ export default function Navbar() {
                   <a
                     className="inline-block w-full"
                     href={br}
-                    target="blank"
+                    target="blank" download
                   >
                     <button className="primary-button w-full text-white">
                       <span>Brouchure</span>

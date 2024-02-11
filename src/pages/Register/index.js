@@ -185,7 +185,7 @@ const Register = () => {
                 "BlockChain",
                 "CyberSecurity",
                 "Backend Development using Java SpringBoot",
-                "Backend Development using Node jsx",
+                "Backend Development using Node js",
                 "Networking",
                 "Business and Mindset",
                 
