@@ -63,19 +63,23 @@ const Register = () => {
       Swal.fire({
         icon: "success",
         title: "Registration Completed Successfully!",
-        html: 'Join our <a href="https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn"> WhatsApp group</a>. Check your email to join our WhatsApp group for more updates. If not, check your spam mail',
+        html: 'Join our <a href="https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn">WhatsApp group</a>. Check your email to join our WhatsApp group for more updates. If not, check your spam mail',
         footer: '<a href="tel:+916384281065">Why do I have this issue? for contact</a>',
         didOpen: () => {
-            const whatsappButton = Swal.getPopup().querySelector('a[href="https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn"]');
-            whatsappButton.insertAdjacentHTML('afterend', '<button id="joinWhatsappGroup">Join WhatsApp Group</button>');
-            const joinButton = Swal.getPopup().querySelector('#joinWhatsappGroup'); // Change the background color here
-            joinButton.style.color = 'blue';
+            const joinButton = Swal.getPopup().querySelector('.swal2-confirm');
+            joinButton.textContent = 'Join WhatsApp Group'; // Change the button text
+            joinButton.style.backgroundColor = 'blue'; // Change the background color here
+            joinButton.style.color = 'white'; // Change the text color here
             joinButton.addEventListener('click', () => {
-                // Handle button click action, e.g., redirect to WhatsApp group link
+                // Open the WhatsApp group link in a new tab
                 window.open('https://chat.whatsapp.com/GjpJbGljPwG0KINxZoVkfn', '_blank');
             });
         }
     });
+    
+    
+    
+
     
 
       // Navigate to home page after successful submission
