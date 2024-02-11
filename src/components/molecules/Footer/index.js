@@ -34,7 +34,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook className="text-2xl text-black" />
+            <FaFacebook className="text-2xl text-blue-500" />
           </a>
           <a
             className="inline-block mx-2"
