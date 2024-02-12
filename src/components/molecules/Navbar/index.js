@@ -96,7 +96,7 @@ export default function Navbar() {
               target="blank" download
             >
               <PrimaryBtn>
-                 <span className="text-sm">Brouchre</span> 
+                 <span className="text-sm">Brochure</span> 
                 <span>
                   <FaDownload />
                 </span>
@@ -144,7 +144,7 @@ export default function Navbar() {
                     target="blank" download
                   >
                     <button className="primary-button w-full text-white">
-                      <span>Brouchure</span>
+                      <span>Brochure</span>
                       <span>
                         <FaDownload />
                       </span>

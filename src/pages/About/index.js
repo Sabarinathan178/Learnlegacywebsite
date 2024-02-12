@@ -78,7 +78,7 @@ const About = () => {
             <div className="flex justify-center md:justify-start">
               <a href={br} target="blank" download >
                 <button className="primary-button">
-                  <span>Broucher</span>
+                  <span>Brochure</span>
                   <span>
                     <FaDownload />
                   </span>
